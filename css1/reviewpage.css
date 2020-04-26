@@ -1,0 +1,428 @@
+body
+{
+	background:linear-gradient(to right, #0f0c29, #302b63, #24243e) no-repeat fixed;
+	background-size: contain;
+	
+}
+
+@font-face
+{
+	font-family: damion;
+	src:url('fonts/Damion.ttf');
+}
+@font-face
+{
+	font-family: alconica;
+	src:url(fonts/Aclonica.ttf);
+}
+@font-face
+{
+	font-family: ice;
+	src:url(fonts/Iceberg.ttf);
+}
+header
+{
+	width: 100%;
+	background:yellow;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#container
+{
+	width: 100%;
+	content: " ";
+}
+#block1,#block2
+{
+		border:0.2vw solid black;
+		box-shadow: 0.2vw 0.5vw 1vw white;
+}
+header
+{
+	width: 100%;
+	background: linear-gradient(to right, #000046, #1cb5e0);
+position: relative;
+	top: 0;
+	left: 0;
+	box-shadow: 0.1vw 0.2vw 0.3vw white;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+#icon1
+{
+	width: 7vw;
+	height: 7vw;
+	background-color: white;
+	position: relative;
+	top: 0.5vw;
+	left: 0.5vw;
+	display: inline-block;
+	border-radius: 50%;
+}
+#block123
+{
+	font-family: alconica;
+	font-size: 4vw;
+	color: mediumseagreen;
+	text-shadow: 0.1vw 0.2vw 0.1vw #333;
+	padding: 0.5vw;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+
+}
+#a001
+{
+font-size: 2vw;
+font-family: damion;
+color: #ddd;
+text-shadow: none;
+text-decoration: underline white;
+margin-left: 14vw;
+position: relative;
+top: 0;
+	
+}
+#home
+{
+	width: 3vw;
+	cursor: pointer;
+	position: relative;
+	left: 40%;
+	top: 0;
+	transition: 0.1s;
+	border-radius: 50%;
+}
+#home:hover
+{
+	transform: scale(1.1);
+	border:0.2vw solid white;
+	box-shadow: 0.2vw 0.2vw 0.5vw black;	
+}
+#icon
+{
+	width: 15vw;
+	height: 15vw;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 0.2vw solid black;
+    position: relative;
+    top: 0;
+    left:42%;
+    margin-top: 1vw; 
+    box-shadow: 0.1vw 0.1vw 0.5vw black;
+}
+#block1
+{
+	width: 26%;
+	height: 40vw;
+	background:linear-gradient(45deg,#ffecd2,#fcb69f);
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top:1vw;
+	padding: 1vw;
+	overflow: hidden;
+	overflow-wrap: break-word;
+}
+#block2
+{
+	width: 68%;
+    height: 42vw;
+	float: right;
+background: linear-gradient(to right, #000046, #1cb5e0);
+	position: relative;
+	top: 0;
+	right: 0;
+	margin-top: 1vw;
+	display:block;
+	overflow: hidden;
+}
+#container::after
+{
+	clear: both;
+	content: " ";
+	display: block;
+}
+#profileic
+{
+	width: 10vw;
+	height: 10vw;
+	background: black;
+	position: relative;top: 0;left: 25%;
+ 	border-radius: 50%;
+ 	border:0.3vw solid green;
+} 
+
+
+
+footer
+{
+	width: 100%;
+	position: relative;
+	top: 2vw;
+	left: 0;
+	height: 7vw;
+	background:black;
+}
+#userdetail
+{
+font-weight: bold;
+font-size: 1.5vw;
+width: 100%;
+margin-top: 2vw;
+color: black;
+text-shadow: 0.1vw 0.1vw 0.3vw white;
+}
+.det
+{
+	margin-left: 1vw;
+	font-size: 1.5vw;
+	font-weight: normal;
+	color: mediumseagreen;
+	font-family: alconica;
+}
+#logout
+{
+	width: 5vw;
+	padding: 0.5vw;
+	color: white;
+	background: mediumseagreen;
+	font-size: 1vw;
+	font-weight: bold;
+	position: relative;
+	top:2vw;
+	left: 80%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+#logout:hover
+{
+	transform: scale(1.1);
+	border: 0.2vw solid green;
+}
+
+#load
+{
+	width: 100%;
+	height: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: not-allowed;
+		z-index: 1;
+		display: none;
+		overflow: hidden;
+}
+#loading
+{
+	width: 30%;
+	position: fixed;
+	top: 17%;
+	left: 34%;
+
+}
+#contents
+{
+	width: 100%;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.task
+{
+	width: 15vw;
+	height: 15vw;
+	background: linear-gradient(45deg,purple,violet);
+	display: inline-block;
+	position: relative;
+	left: 4vw;
+	top: 4vw;
+	margin-left: 10vw;
+	cursor: pointer;
+	border:0.4vw solid black;
+	border-radius: 1vw;
+		overflow:hidden;
+}
+.task:hover
+{
+	border: 0.4vw solid white;
+}
+.task:hover .panel{
+	height: 100%;
+}
+.reviewcontent
+{
+	width: 98%;
+	position: relative;
+	top: 1.5vw;
+	left: 0.2vw;
+	color: gold;
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+	font-family: alconica;
+}
+.des11
+{
+	font-size: 1.2vw;
+	color: white;
+	font-family: ice;
+}
+.panel
+{
+	width: 100%;
+	height: 0;
+	background: linear-gradient(45deg,violet,pink,purple);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	transition: 0.2s;
+	border-radius: 1vw;
+	overflow: hidden;
+}
+#pstar1,#pstar2,#pstar3,#pstar4,#pstar5,#qstar1,#qstar2,#qstar3,#qstar4,#qstar5,#ustar1,#ustar2,#ustar3,#ustar4,#ustar5
+{
+	width: 2vw;
+	position: relative;
+	top: 5vw;
+	left: 2vw;
+}
+#panel2
+{
+	width: 80%;
+	height: 15vw;
+	background: linear-gradient(45deg,blue,skyblue,darkblue);
+	position: relative;
+	top: 5vw;
+	left: 7.9vw;
+	color: white;
+	padding: 0.5vw;
+	display: block;
+}
+#inst00
+{	font-size:2vw;
+	font-family: alconica;
+	color:mediumseagreen;
+	text-shadow: 0.2vw 0.2vw 0.3vw black;
+	position: relative;
+	overflow: hidden;
+	left: 3vw;
+	top: 1vw;
+}
+#inst005
+{	font-size:1.3vw;
+	font-family: alconica;
+	color:white;
+	text-shadow: 0.2vw 0.2vw 0.3vw black;
+	position: relative;
+	overflow: hidden;
+	left: 1vw;
+	top: 1vw;
+}
+#inst001
+{
+	font-size: 1vw;
+	font-family: alconica;
+	color: mediumseagreen;
+}
+#a0001
+{
+	font-size: 1vw;
+	font-family: ice;
+	color: tomato;
+}
+form
+{
+	position: relative;
+	top: 2vw;
+	left: 2vw;
+display: block;
+}
+.b002
+{
+	font-size:1.5vw;
+	font-family: ice;
+	color: white; 
+
+}
+input[type=text]
+{
+	width: 2vw;
+	color: white;
+	visibility: hidden;
+	font-size: 1vw;
+	margin-left: 1vw;
+	color: gold;
+	font-family: alconica;
+}
+.b003
+{
+	font-size: 1vw;
+	color:gold;
+	font-family: acme;
+
+}
+.star001
+{
+	font-size: 1vw;
+	color: gold;
+	font-family: alconica;
+}
+input[type=submit]
+{
+	width: 9vw;
+	font-size: 1vw;
+	color: white;
+	font-family: ice;
+	padding: 0.5vw;
+	background: linear-gradient(45deg,mediumseagreen,green);
+	border:0.2vw solid white;
+	cursor: pointer;
+	transition:0.1s;
+	visibility: hidden;
+}
+
+input[type=submit]:hover, #btn:hover
+{
+transform: scale(1.1);
+}
+#err
+{
+	position: absolute;
+	font-size: 1.5vw;
+	color: red;
+	left:25%;
+	top: 5vw;
+}
+#btn{
+	width: 9vw;
+	font-size: 1vw;
+	color: white;
+	font-family: ice;
+	padding: 0.5vw;
+	background: linear-gradient(45deg,mediumseagreen,green);
+	border:0.2vw solid white;
+	cursor: pointer;
+	transition:0.1s;
+	display: block;
+	position: relative;
+	top: 2vw;
+	left: 4%;
+}
+#ratingpanel
+{
+	width: 40%;
+	height: 40%;
+	background: white;
+	border:0.1vw solid black;
+	position: fixed;
+	left: 30%;
+	top: 10%;
+	z-index: 1;
+	display: none;
+}

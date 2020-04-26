@@ -1,0 +1,315 @@
+body
+{
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e) no-repeat fixed;
+	background-size: contain;
+}
+#load{
+	width: 100%;
+	height: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: not-allowed;
+		z-index: 1;
+		display: none;
+		overflow: hidden;
+}
+#loading
+{
+	width: 30%;
+	position: fixed;
+	top: 17%;
+	left: 34%;
+}
+@font-face
+{
+	font-family: title;
+	src:url('fonts/Aclonica.ttf');
+
+}
+@font-face
+{
+	font-family: title1;
+	src:url('fonts/Damion.ttf');
+
+}
+@font-face
+{
+	font-family: iceberg;
+	src:url('fonts/Iceberg.ttf');
+}
+*
+{
+	box-sizing: border-box;
+}
+header
+{
+	  width: 100%;
+	  background: linear-gradient(to right, #000046, #1cb5e0);
+position: relative;
+	top: 0;
+	left: 0;
+	box-shadow: 0.1vw 0.2vw 0.3vw white;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+#block01
+{
+	font-family: title;
+	font-size: 4vw;
+	color: mediumseagreen;
+	text-shadow: 0.1vw 0.2vw 0.1vw #333;
+	padding: 0.5vw;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+}
+#icon
+{
+	width: 7vw;
+	height: 7vw;
+	background-color: white;
+	position: relative;
+	top: 0.5vw;
+	left: 0.5vw;
+	display: inline-block;
+	margin-right: 1vw;
+	border-radius: 50%;
+}
+#a001
+{
+font-size: 1.7vw;
+font-family: title1;
+color: #ddd;
+text-shadow: none;
+text-decoration: underline white;
+margin-left: 14vw;
+position: relative;
+top: 0;
+}
+section{
+	width: 100%;
+	height: 40vw;
+	position: relative;
+	top: 1vw;
+	left: 0;
+}
+#left
+{
+	float: left;
+width: 15%;
+height:100%;
+background: black;
+font-size: 1.2vw;
+color:white;
+font-family: iceberg;
+}
+#right
+{
+	float: right;
+	width: 85%;
+height:100%;
+background: yellow;
+}
+section:after
+{
+	clear: both;
+	content: " ";
+	display: block;
+}
+footer
+{
+	width: 100%;
+	height: 7vw;
+	background: violet;
+	position: relative;
+	top: 2vw;
+	left: 0;
+}
+.panelcate
+{
+	width: 100%;
+	height:4vw;
+	display: block;
+	background:black;
+	color: white;
+	font-size: 1.1vw;
+	font-family: title;
+	border:none;
+	border-bottom:0.2vw solid white;
+	cursor: pointer;
+	transition:0.2s;
+	position: relative;
+	top: 10%;
+}
+.panelcate:hover
+{
+	transform:scale(1.05);
+	background: white;
+	color: tomato;
+}
+#block1,#block2,#block3,#block4,#block5,#block6,#block7
+{
+	width: 100%;
+	height: 100%;
+	background: white;
+	padding: 1vw;
+	background: url(images/ig1.jpg) no-repeat;
+	background-size: 100%;
+}
+#block2,#block3,#block4,#block5,#block6,#block7
+{
+	overflow-y: scroll;
+}
+#b001
+{
+	color: tomato;
+	background: white;
+}
+#block1
+{
+	display: block; 
+}
+#block2
+{
+	display: none;
+}
+#block3
+{
+	display: none;
+}
+#block4
+{
+	display: none;
+}
+#block5
+{
+	display: none;
+}
+#block6
+{
+	display:none;
+}
+.a2020
+{
+	color: white;
+	font-size: 2vw;
+	font-family: title;
+}
+#cate
+{display: none;}
+input[type=text]
+{
+	display: block;
+	width: 40%;
+	border:0.2vw solid white;
+	background: black;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 0.1vw;
+	padding: 0.5vw;
+	font-size: 1vw;
+}
+input[type=submit]
+{
+	width: 7vw;
+	padding: 0.5vw;
+	background: mediumseagreen;
+	color: white;
+	font-weight: bold;
+	margin-top:1vw;
+	border:0.3vw solid white;
+	border-radius: 1vw;
+	transition: 0.1s;
+	cursor: pointer;
+}
+input[type=submit]:hover
+{
+	transform: scale(1.1);
+}
+form
+{
+	max-width: 80%;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 5vw;
+	left: 10%;
+		letter-spacing: 0.2vw;
+}
+select{
+	width: 10vw;
+	padding: 0.5vw;
+	border:0.2vw solid white;
+	background: black;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+#commentbox
+{
+	width: 100%;
+	margin-top: 1vw;
+	background: linear-gradient(45deg,lightblue,skyblue);
+	padding-right: 1vw;
+	padding-top: 1vw;
+	border-radius: 2vw;
+	padding-bottom: 0.2vw;
+	overflow:hidden;
+}
+#comment
+{
+	width: 100%;
+	background:#ddd;
+	color: tomato;
+	letter-spacing: 0.1vw;
+	border-radius: 1vw;
+	padding: 1vw;
+	font-size: 1.3vw;
+}
+.title
+{
+	color: white;
+	font-size: 2vw;
+	font-family:title;
+	text-decoration: underline mediumseagreen;
+}
+.time{
+	position: relative;
+	left: 85%;
+	font-size: 1vw;
+	color: black;
+	font-weight: bold;
+
+}
+.name002
+{
+	margin-left: 2vw;
+	font-size: 1.4vw;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 0.1vw;
+}
+.id001
+{
+	font-size: 1.2vw;
+	font-weight: bold;
+	color: tomato;
+	font-family: iceberg;
+	margin-left: 2vw;
+}
+.cate123
+{
+color: black;
+font-size: 1vw;
+letter-spacing: 0.1vw;	
+}
+#seen
+{
+	width:1vw;
+	margin-left: 0.5vw;
+}

@@ -1,0 +1,90 @@
+@font-face
+{
+	font-family: title;
+	src:url('fonts/Aclonica.ttf');
+
+}
+@font-face
+{
+	font-family: title1;
+	src:url('fonts/Damion.ttf');
+
+}
+@font-face
+{
+	font-family: iceberg;
+	src:url('fonts/Iceberg.ttf');
+}
+#load{
+	width: 100%;
+	height: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: not-allowed;
+		z-index: 2;
+		display: none;
+		overflow: hidden;
+}
+#loading
+{
+	width: 30%;
+	position: fixed;
+	top: 17%;
+	left: 34%;
+}
+header
+{
+	  background: linear-gradient(to right, #000046, #1cb5e0);
+position: relative;
+	top: 0;
+	left: 0;
+	box-shadow: 0.1vw 0.2vw 0.3vw white;
+	padding:1vw;
+}
+#block1
+{
+	font-family: title;
+	font-size: 4vw;
+	color: mediumseagreen;
+	text-shadow: 0.1vw 0.2vw 0.1vw #333;
+	padding: 0.5vw;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+}
+#a001
+{
+font-size: 1.7vw;
+font-family: title1;
+color: #ddd;
+text-shadow: none;
+text-decoration: underline white;
+margin-left: 14vw;
+position: relative;
+top: 0;
+}
+#icon
+{
+	width: 7vw;
+	height: 7vw;
+	background-color: white;
+	position: relative;
+	top: 0.5vw;
+	left: 0.5vw;
+	display: inline-block;
+	margin-right: 1vw;
+	border-radius: 50%;
+}
+#paneladmin
+{
+	width: 100%;
+	height: 20vw;
+	position: fixed;
+	background: white;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
